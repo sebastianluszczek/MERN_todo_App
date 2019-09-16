@@ -25,7 +25,7 @@ export default class AddTodo extends Component {
           value={this.state.title}
           placeholder="Add todo item"
         />
-        <input type="submit" value="Add" />
+        <input type="submit" value="Add" className="btn" />
       </form>
     );
   }
